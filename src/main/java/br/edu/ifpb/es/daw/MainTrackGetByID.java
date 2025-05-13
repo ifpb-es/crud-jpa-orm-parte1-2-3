@@ -26,6 +26,7 @@ public class MainTrackGetByID {
 			// Depois recuperar pelo identificador
 			Track resultado = dao.getByID(track.getId());
 
+			//System.out.println(resultado);
 			System.out.println(track.equals(resultado));
 		}
 	}

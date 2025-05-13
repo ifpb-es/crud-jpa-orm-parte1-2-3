@@ -8,6 +8,8 @@ import br.edu.ifpb.es.daw.util.Util;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
 
+import java.util.Date;
+
 
 public class MainCustomerSave {
 
@@ -20,7 +22,7 @@ public class MainCustomerSave {
 			customer.setLastName("Silva");
 			customer.setPhoneNumber("(83) 1234 5678");
 			customer.setEmail(String.format("joao.silva%d@email.com", System.nanoTime()));
-			customer.setCreationDate(Util.getDate(2024, 2, 10));
+			customer.setCreationDate(new Date());
 			customer.setDateOfBirth(Util.getDate(1980, 3, 4));
 			
 			Address address = new Address();

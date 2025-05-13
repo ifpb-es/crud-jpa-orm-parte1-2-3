@@ -26,6 +26,7 @@ public class MainTrackUpdate {
 			System.out.println(track);
 
 			// Depois atualizar
+			//track.setTitle("outro título");
 			track.setDescription("outra descrição");
 
 			dao.update(track);

@@ -127,5 +127,7 @@ public class Track {
 	public String toString() {
 		return "Track [id=" + id + ", title=" + title + ", duration=" + duration + ", wav=" + Arrays.toString(wav)
 				+ ", description=" + description + "]";
+		/*return "Track [id=" + id + ", title=" + title + ", duration=" + duration
+				+ ", description=" + description + "]";*/
 	}
 }
